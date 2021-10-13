@@ -1,4 +1,4 @@
 # wg-gitpods
-A respository for testing gitpods
+A repository for testing gitpods
 # Hello from Ben
 - Hi Ben
