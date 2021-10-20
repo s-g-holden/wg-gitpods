@@ -5,12 +5,4 @@ alkjdmn
 
 good day to you sir
 
-
-Hi Sam
-
-hello dom
-
-
-😭 :) :) :)
-slkdskl
-
+tidy now
