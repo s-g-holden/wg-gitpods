@@ -1,13 +1,13 @@
 # List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
 tasks:
-  - init: | 
-      echo ' scinitript' # runs during prebuild
-    command: git config pull.rebase false # Default strategy is merge on pull
+  - command: |
+      git config pull.rebase false
+      cd doccer/ && npm run start
 
 image:
   file: .gitpod.dockerfile
 
 # List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
-# ports:
-  # - port: 3000
-  #   onOpen: open-preview
+ports:
+   - port: 3000
+     onOpen: open-preview
