@@ -5,3 +5,5 @@ RUN sudo apt-get update && \
     sudo apt-get install -y nodejs && \
     sudo rm -rf /var/lib/apt/lists/*
 
+RUN npm i -g adr-tools
+
